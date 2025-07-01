@@ -1,65 +1,59 @@
-# Cinegrand App (Movie Tickets Reservation)
+# KVA
 
-A modern Angular application for browsing movies and reserving cinema tickets easily and quickly.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.3.
 
----
+## Development server
 
-## Features
+To start a local development server, run:
 
-- Browse and search movies with filters (genre, year, language)
-- View detailed movie information
-- See available screenings (dates and times)
-- Select seats and add tickets to cart
-- User authentication (login/register)
-- Manage user profile and bookings
-- Confirm ticket reservations through cart
+```bash
+ng serve
+```
 
----
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Technologies
+## Code scaffolding
 
-- Angular 17+
-- TypeScript
-- Angular Material
-- SCSS / TailwindCSS (optional)
-- Mock data stored locally (JSON files)
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
----
+```bash
+ng generate component component-name
+```
 
-## Installation
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-1. Clone the repository:  
-   `git clone https://github.com/your-username/cinegrand-app.git`
+```bash
+ng generate --help
+```
 
-2. Navigate to project folder:  
-   `cd cinegrand-app`
+## Building
 
-3. Install dependencies:  
-   `npm install`
+To build the project run:
 
-4. Run the app locally:  
-   `ng serve`
+```bash
+ng build
+```
 
-5. Open browser at `http://localhost:4200`
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
----
+## Running unit tests
 
-## Usage
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-- Browse movies on the home page
-- Click a movie to see details and screenings
-- Select screening and add tickets to cart
-- Login or register to proceed with reservation
-- Confirm booking in the cart page
+```bash
+ng test
+```
 
----
+## Running end-to-end tests
 
-## Contributing
+For end-to-end (e2e) testing, run:
 
-Contributions are welcome! Please open issues or submit pull requests.
+```bash
+ng e2e
+```
 
----
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## License
+## Additional Resources
 
-This project is open source and available under the MIT License.
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
